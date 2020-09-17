@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Yellowtail&display=swap');
+
 body {
   box-sizing: border-box;
   width: 90%;
@@ -65,23 +67,26 @@ main h2{
 }
 
 p{
-  width: 95%;
+  /* width: 95%; */
   text-indent: 15px;
-  font-size: 50px;
+  font-size: 20px;
   text-align: left;
   color: lightslategray;
-  line-height: 100px;
+  /* line-height: 100px; */
 }
 
 .column {
 display: flex;
 list-style: none;
-background-image: url('img/list-bg.png');
-background-repeat: round;
-width: 40%;
-margin-left: 500px;
+background-image: url('../img/list-bg.png');
+background-size: cover;
+background-repeat: no-repeat;
+
+/* margin-left: 500px; */
 padding: 60px;
+
 }
+
 .form-left{
 margin-left: 100px;
 }
