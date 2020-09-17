@@ -4,19 +4,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+
     <title>Document</title>
 </head>
 
 <body>
     <header>
         <img src="img/logo.png" alt="logo image">
-        <div>
+        <div id="div1">
             <h4>Delicious</h4>
             <h5>THE BEST FOOD BLOG ON THE WEB</h5>
         </div>
-
         <ul>
             <li><img src="img/rss-icon.png" alt=""></li>
             <li><img src="img/mail-icon.png" alt=""></li>
@@ -29,26 +29,31 @@
             <li><img src="img/flic-icon.png" alt=""></li>
             <li><img src="img/pint-icon.png" alt=""></li>
         </ul>
+
         <hr>
     </header>
 
     <main>
         <h1>Chocolate Pizza</h1>
+        <div class="float">
+            <img src="img/print1.png" alt="">
+            <span>PRINT</span>
+        </div>
         <h2>POSTED ON 15 DEC 2013 / DESSERTS</h2>
-        <figure action="">
-            <img src="img/pint-icon.png" alt="">
-        </figure>
+        <br>
         <img id="choco-pizza" src="img/choco-pizza.png" alt="">
         <p>For the fig-swirl: Melt butter over medium heat in a saucepan. Add brown sugar and stir to dessolve. Halve
             all of the
             figs and toss in the saucepan with water and lemon juice. Cook over medium heat, stirring frequently, until
             you have
             chunky-jammy mixture. Add salt with one or two stirs, set aside and let cool completely.</p>
+        <br>
         <p>Ice cream: In a small pot over medium heat, combine milk, and granulated sugar until sugar is completely
             disolved and
             the milk is just barely lukewarm. Whisk in the egg yolks. Set mixture in the fridge and wait until the fig
             mixture
             is cooled.</p>
+        <br>
         <p>Using an ice cream machine, pour liquids into the frozen bassin and process according to manufacturer
             instruction,
             i.e., let spin and thicken for 20 minutes before adding mascarpone, fig jam mixture and the nuts. Continue
@@ -56,40 +61,47 @@
             for +/- 10 minutes. Pour semi.frozen mixture into a pyrex dish or glass tupperware. Freeze for at least two
             hours
             before serving.</p>
+        <br>
         <div id="main-div">
-            <!-- <div class="column-01"> -->
-              <fieldset>
-                <form>
-                  <li><input type="checkbox" id="cupsMilk"> <label for="cupsMilk">1 1/2 cups milk</label></li>
-                  <li><input type="checkbox" id="cupsMascarpone"> <label for="cupsMascarpone">1/2 cup
-                          mascarpone</label></li>
-                  <li><input type="checkbox" id="pinkSalt"> <label for="pinkSalt">1/2 tsp pink salt</label></li>
-                  <li><input type="checkbox" id="blackMissionFigs"> <label for="blackMissionFigs">1 lb Black Mission
-                          Figs</label></li>
-                  <li><input type="checkbox" id="cupBrownSugar"> <label for="cupBrownSugar">1/ cup brown sugar</label>
-                  </li>
-                  <li><input type="checkbox" id="tpspWater"> <label for="tpspWater">2-4 tbs water</label></li>
-              </form>
-              </fieldset>
-                
-            <!-- </div> -->
-            <!-- <div class="column-02"> -->
-              <fieldset>
-                <form>
-                  <li><input type="checkbox" id="cream"> <label for="cream">1 1/2 cups heavy cream</label></li>
-                  <li><input type="checkbox" id="gra_sugar"> <label for="gra_sugar">4/3 granulated sugar</label></li>
-                  <li><input type="checkbox" id="yolks"> <label for="yolks">2 egg yolks</label></li>
-                  <li><input type="checkbox" id="lemon"> <label for="lemon">1 lemon juiced</label></li>
-                  <li><input type="checkbox" id="butter"> <label for="butter">2 tbsp butter</label></li>
-                  <li><input type="checkbox" id="honey"> <label for="honey">1 cup honey roasted pecans, roughly chopped</label></li>
-                </form>
-              </fieldset>
-            <!-- </div> -->
+            <div class="column">
+                <fieldset>
+                    <form>
+                        <li><input type="checkbox" id="cupsMilk"> <label for="cupsMilk">1 1/2 cups milk</label></li>
+                        <li><input type="checkbox" id="cupsMascarpone"> <label for="cupsMascarpone">1/2 cup
+                                mascarpone</label></li>
+                        <li><input type="checkbox" id="pinkSalt"> <label for="pinkSalt">1/2 tsp pink salt</label></li>
+                        <li><input type="checkbox" id="blackMissionFigs"> <label for="blackMissionFigs">1 lb Black
+                                Mission
+                                Figs</label></li>
+                        <li><input type="checkbox" id="cupBrownSugar"> <label for="cupBrownSugar">1/ cup brown
+                                sugar</label>
+                        </li>
+                        <li><input type="checkbox" id="tpspWater"> <label for="tpspWater">2-4 tbs water</label></li>
+                    </form>
+                </fieldset>
+
+
+
+                <fieldset class="form-left">
+                    <form>
+                        <li><input type="checkbox" id="cream"> <label for="cream">1 1/2 cups heavy cream</label></li>
+                        <li><input type="checkbox" id="gra_sugar" checked> <label for="gra_sugar"><s>4/3 granulated
+                                    sugar</s></label></li>
+                        <li><input type="checkbox" id="yolks" checked> <label for="yolks"><s>2 egg yolks</s></label>
+                        </li>
+                        <li><input type="checkbox" id="lemon"> <label for="lemon">1 lemon juiced</label></li>
+                        <li><input type="checkbox" id="butter"> <label for="butter">2 tbsp butter</label></li>
+                        <li><input type="checkbox" id="honey"> <label for="honey">1 cup honey roasted pecans, roughly
+                                chopped</label></li>
+                    </form>
+                </fieldset>
+            </div>
         </div>
         <hr>
     </main>
     <footer>
-        <div>
+
+        <div id="footer1">
             <img id="vanessa-stevenson" src="img/van-pic.png">
             <h3>Vanessa Stevenson</h3>
             <p>Food enthusiast, photography fan. Add a pinch of raw foodism and that's pretty much who I am.</p>

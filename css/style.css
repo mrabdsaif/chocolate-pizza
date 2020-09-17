@@ -1,0 +1,95 @@
+body {
+  box-sizing: border-box;
+  width: 90%;
+  margin: 0 auto;
+}
+
+header img {
+  box-shadow: 2px 2px 3px black;
+}
+
+header img:hover{
+  box-shadow: 3px 3px 4px black;
+}
+
+#div1{
+  display: inline-block;
+}
+
+header ul {
+  display: inline-block;
+  float: right;
+  margin-left: 2px;
+  padding: 12px;
+}
+
+header ul li{
+  display: inline-block;
+}
+
+#div1 h4 {
+font: 30px bold black;
+font-family:  'Yellowtail', cursive;
+margin-left: 10px;
+}
+
+#div1 h5{
+    font-size: 10px;
+    color: rgb(112, 112, 112);
+    margin-left: 10px;
+}
+
+hr{
+  background-image: url('../img/hr-img.png');
+  height: 10px;
+  border: 0px;
+}
+
+main h1 {
+  font: 30px bold;
+  font-family: 'Francois One', sans-serif; 
+}
+
+main h2{
+  font-size: 10px;
+  color: rgb(112, 112, 112);
+}
+
+.float {
+  float: right;
+  color: gray;
+}
+
+#choco-pizza{
+ width: 100%;
+}
+
+p{
+  width: 95%;
+  text-indent: 15px;
+  font-size: 50px;
+  text-align: left;
+  color: lightslategray;
+  line-height: 100px;
+}
+
+.column {
+display: flex;
+list-style: none;
+background-image: url('img/list-bg.png');
+background-repeat: round;
+width: 40%;
+margin-left: 500px;
+padding: 60px;
+}
+.form-left{
+margin-left: 100px;
+}
+/* #footer1{
+  display: inline-block;
+  border: 2px black;
+}
+h3, p{
+  float: right;
+  width: 30%;
+}*/
